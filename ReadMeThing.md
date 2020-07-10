@@ -10,16 +10,16 @@ _Repo by Kionling_
 ___
 
 __Installation:__
-Use Npm install
+You need to npm install the correct packages for the program to run
 
 __Usage:__
-fesfsfe
+To generate markdown files
 
 __Contributors:__
-Me
+Daniel Jauregui (ME)
 
 __Tests:__
 None
 
 __Questions:__
-None
+N/A
