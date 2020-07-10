@@ -9,17 +9,24 @@ _Repo by Kionling_
 
 ___
 
-__Installation:__
-You need to npm install the correct packages for the program to run
+___Table-of-Contents___
+1. [How to install](#install)
+2. [How to Use](#usage)
+3. [Contributions](#contributers)
+4. [Tests](#tests)
+5. [Questions](#questions)
 
-__Usage:__
-To generate markdown files
+<a id="install">__Installation:__</a>
+You need to npm install the correct packages for the program to run. For instance, inquirer is a package that allows the programmer to code prompts to ask the user and store them by their data type. The type's of questions vary from inputs to checkboxes. Each type of questions to be asked all have their data store methods. Axios is another node package that allows the user to use the "GET" method we see in Jquery and Ajax. You can call on APIs in node using the Axios method. 
 
-__Contributors:__
+<a id="usage">__Usage:__</a>
+In order to run this script, you need to use the terminal. Locate the root script file and type node file_name into the terminal. From there the prompts will ask you what information you would like to store in the designated spaces. Just like how I'm using this to display to you! 
+
+<a id="contributers">__Contributors:__</a>
 Daniel Jauregui (ME)
 
-__Tests:__
+<a id="tests">__Tests:__</a>
 None
 
-__Questions:__
+<a id="questions">__Questions:__</a>
 N/A
