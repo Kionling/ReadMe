@@ -27,3 +27,5 @@ __Questions:__
 ${data.qs}
 `
 }
+
+module.exports = generateMarkdown
