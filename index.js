@@ -31,7 +31,7 @@ const writeToFile = (fileName, data) => {
         console.log(`${rmObject.fullName} found!`)
       }
     } while (!rmObject)
-  
+    // const ghApi = await api.getUser(rmUser)
     Object.assign(rmObject, await prompt([
    
       {
