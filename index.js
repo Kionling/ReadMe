@@ -31,18 +31,9 @@ const writeToFile = (fileName, data) => {
         console.log(`${rmObject.fullName} found!`)
       }
     } while (!rmObject)
-    // const ghApi = await api.getUser(rmUser)
+  
     Object.assign(rmObject, await prompt([
-      // {
-      //   type: 'input',
-      //   name: 'rmTitle',
-      //   message: 'What is the project title?'
-      // },
-      // {
-      //   type: 'input',
-      //   name: 'rmDesc',
-      //   message: 'What is the project description?'
-      // },
+   
       {
         type: 'input',
         name: 'inst',
@@ -53,11 +44,7 @@ const writeToFile = (fileName, data) => {
         name: 'use',
         message: 'What is the usage description?'
       },
-      // {
-      //   type: 'input',
-      //   name: 'rmLic',
-      //   message: 'What is the license?'
-      // },
+      
       {
         type: 'input',
         name: 'con',
