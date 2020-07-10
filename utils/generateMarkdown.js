@@ -24,7 +24,7 @@ __Tests:__
 ${data.test}
 
 __Questions:__
-${data.qs}
+${data.question}
 `
 }
 
